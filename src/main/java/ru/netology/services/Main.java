@@ -7,6 +7,6 @@ public class Main {
         int thresold = 150_000;
         holidayService service = new holidayService();
         int moth = service.calculate(income, expenses, thresold);
-        System.out.println("Отдыхаем" + moth + "месяцев");
+        System.out.println("Отдыхаем " + moth + " месяца(ев)");
     }
 }
